@@ -1,3 +1,9 @@
+## For Magento 1. composer ready version
+
+Rebasing will keep this fork up to date with the current dev.
+
+Maintained by Zookal.
+
 [![Build Status](https://travis-ci.org/google/google-api-php-client.svg)](https://travis-ci.org/google/google-api-php-client)
 
 # Google APIs Client Library for PHP #
