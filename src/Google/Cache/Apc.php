@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-require_once realpath(dirname(__FILE__) . '/../../../autoload.php');
-
 /**
  * A persistent storage class based on the APC cache, which is not
  * really very persistent, as soon as you restart your web server

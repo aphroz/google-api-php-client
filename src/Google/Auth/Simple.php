@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-require_once realpath(dirname(__FILE__) . '/../../../autoload.php');
-
 /**
  * Simple API access implementation. Can either be used to make requests
  * completely unauthenticated, or by using a Simple API Access developer

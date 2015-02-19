@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-require_once realpath(dirname(__FILE__) . '/../../../autoload.php');
-
 /**
  * File logging class based on the PSR-3 standard.
  *

@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-require_once realpath(dirname(__FILE__) . '/../../../autoload.php');
-
 /**
  * A persistent storage class based on the memcache, which is not
  * really very persistent, as soon as you restart your memcache daemon

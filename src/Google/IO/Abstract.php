@@ -19,8 +19,6 @@
  * Abstract IO base class
  */
 
-require_once realpath(dirname(__FILE__) . '/../../../autoload.php');
-
 abstract class Google_IO_Abstract
 {
   const UNKNOWN_CODE = 0;

@@ -22,8 +22,6 @@
  */
 use google\appengine\api\app_identity\AppIdentityService;
 
-require_once realpath(dirname(__FILE__) . '/../../../autoload.php');
-
 /**
  * Authentication via the Google App Engine App Identity service.
  */

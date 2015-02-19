@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-require_once realpath(dirname(__FILE__) . '/../../autoload.php');
-
 /**
  * The Google API Client
  * http://code.google.com/p/google-api-php-client/

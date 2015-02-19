@@ -14,8 +14,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
-require_once realpath(dirname(__FILE__) . '/../../../autoload.php');
 
 /**
  * Verifies signatures using PEM encoded certificates.

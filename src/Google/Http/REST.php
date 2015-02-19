@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-require_once realpath(dirname(__FILE__) . '/../../../autoload.php');
-
 /**
  * This class implements the RESTful transport of apiServiceRequest()'s
  *
@@ -116,7 +114,7 @@ class Google_Http_REST
       if ($response->getExpectedRaw()) {
         return $body;
       }
-      
+
       $decoded = json_decode($body, true);
       if ($decoded === null || $decoded === "") {
         $error = "Invalid json in service response: $body";
